@@ -65,6 +65,7 @@
             this.txtnome.Name = "txtnome";
             this.txtnome.Size = new System.Drawing.Size(173, 20);
             this.txtnome.TabIndex = 2;
+            this.txtnome.TextChanged += new System.EventHandler(this.txtnome_TextChanged);
             // 
             // txtsenha
             // 

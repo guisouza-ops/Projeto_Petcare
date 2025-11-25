@@ -19,7 +19,7 @@ namespace ProjetoPetcare
 
         private void btnentrar_Click(object sender, EventArgs e)
         {
-            string usuario = "bizao";
+            string usuario = "gui";
             int senha = 123;
 
             usuario = txtnome.Text;
@@ -42,6 +42,11 @@ namespace ProjetoPetcare
         {
             txtnome.Clear();    
             txtsenha.Clear();
+        }
+
+        private void txtnome_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
